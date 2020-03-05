@@ -30,6 +30,14 @@ nav {
   z-index: 10;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
 
 
 header {
@@ -41,3 +49,13 @@ section {
   padding: 6% 0;
   background-color: #fff;
 }
+
+@media only screen and (min-width: 600px) {
+  .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+} 
