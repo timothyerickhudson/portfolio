@@ -41,7 +41,11 @@ footer {
 
 header {
   padding: 12% 0;
-  margin-top: 60px;
+
+}
+
+.superTop {
+margin-top:100px;
 }
 
 section {
@@ -52,7 +56,8 @@ section {
 
 .portrait {
 width:60%;
-max-width:420px;
+max-width:400px;
+margin: auto;
 }
 
 .aboutClass {
@@ -68,6 +73,8 @@ width: 240px;
 
 .theHeader {
 color: hotpink;
+max-width: 400px;
+margin: auto;
 }
 
 @media only screen and (min-width: 600px) {
@@ -92,5 +99,4 @@ color: hotpink;
   margin-right: 20px;
   }
 }
-
 
