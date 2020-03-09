@@ -3,8 +3,8 @@
 }
 
 .rightAlign {
-  text-align: right;
-  margin-right: 20px;
+  text-align: center;
+  
 }
 
 body {
@@ -27,7 +27,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
+  
 }
 
 footer {
@@ -39,9 +39,9 @@ footer {
 }
 
 
-
 header {
   padding: 12% 0;
+  margin-top: 60px;
 }
 
 section {
@@ -50,12 +50,47 @@ section {
   background-color: #fff;
 }
 
+.portrait {
+width:60%;
+max-width:420px;
+}
+
+.aboutClass {
+max-width: 666px;
+margin: auto;
+}
+
+.projectPics {
+margin-top:10px;
+margin-bottom:10px;
+width: 240px;
+}
+
+.theHeader {
+color: hotpink;
+}
+
 @media only screen and (min-width: 600px) {
   .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; 
+  }
+
+  .project {
+  width: 70%;
+  height: 70%
+  }
+
+  .projectPics {
+  width:333px;
+  }
+
+  .rightAlign {
+  text-align: right;
+  margin-right: 20px;
+  }
 }
 
-} 
+
