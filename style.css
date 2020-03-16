@@ -3,13 +3,13 @@
 }
 
 .rightAlign {
-  text-align: center;
-  
+text-align: right;
+margin-right: 20px;
 }
 
+
 body {
-  font-family: "Open Sans",
-  sans-serif; 
+  font-family: 'Duru Sans', sans-serif; 
   font-size: 20px;
   color: #444;
   text-align: center;
@@ -19,7 +19,8 @@ body {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: black;
+
 }
 
 nav {
@@ -51,12 +52,12 @@ margin-top:100px;
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #fff;
+  
 }
 
 .portrait {
 width:60%;
-max-width:400px;
+max-width:333px;
 margin: auto;
 }
 
@@ -77,12 +78,38 @@ max-width: 400px;
 margin: auto;
 }
 
-@media only screen and (min-width: 600px) {
+a {
+  color: aqua;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+.container2 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around; 
+}
+
+.container3 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around; 
+}
+}
+
+
+@media only screen and (min-width: 401px) {
   .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; 
+  max-width: 1200px;
+  margin: auto;
   }
 
   .project {
@@ -91,12 +118,13 @@ margin: auto;
   }
 
   .projectPics {
-  width:333px;
+  width:300px;
   }
 
-  .rightAlign {
+  .container2 {
   text-align: right;
   margin-right: 20px;
   }
 }
+
 
